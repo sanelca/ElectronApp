@@ -32,3 +32,15 @@ app.on('activate', () => {
     createWindow()
   }
 })
+
+let myLibrary = [];
+
+function Book() {
+// the constructor...
+}
+
+function addBookToLibrary() {
+// do stuff here
+    console.log('test')
+}
+addBookToLibrary();
